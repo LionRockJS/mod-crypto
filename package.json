@@ -1,0 +1,26 @@
+{
+  "name": "@lionrockjs/mod-crypto",
+  "version": "1.0.0",
+  "description": "Crypto library for lionrockjs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules ../../../node_modules/jest/bin/jest.js --coverage"
+  },
+  "jest": {
+    "verbose": true,
+    "transform": {},
+    "testMatch": [
+      "**/__tests__/**/*.[jt]s?(x)",
+      "**/?(*.)+(spec|test).[jt]s?(x)",
+      "**/?(*.)+(spec|test).mjs"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "jsx",
+      "mjs"
+    ]
+  },
+  "author": "Kojin Nakana",
+  "license": "MIT"
+}
