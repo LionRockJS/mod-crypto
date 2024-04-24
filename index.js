@@ -4,7 +4,7 @@ export default {
   dirname
 }
 
-import HelperCrypto from './classes/helper/Crypto';
+import HelperCrypto from './classes/helper/Crypto.mjs';
 
 export {
   HelperCrypto
