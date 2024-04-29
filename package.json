@@ -1,7 +1,7 @@
 {
   "name": "@lionrockjs/mod-crypto",
-  "version": "1.0.0",
-  "description": "Crypto library for lionrockjs",
+  "version": "0.0.1",
+  "description": "Crypto library for LionRockJS",
   "main": "index.js",
   "type": "module",
   "scripts": {
